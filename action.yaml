@@ -1,0 +1,9 @@
+name: 'Xendit API Key Detector'
+description: 'Detect xendit / iluma / instamoney API Key in Pull Request.'
+inputs:
+  github-token:
+    description: 'Github Token to generate Pull Request Comment'
+    default: ${{ github.token }}
+runs:
+  using: 'node16'
+  main: 'dist/index.js'

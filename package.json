@@ -1,0 +1,30 @@
+{
+  "name": "xendit-api-key-scanner-action",
+  "version": "1.0.0",
+  "description": "Action to detect Xendit/Iluma/Instamoney API Key",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest --collect-coverage",
+    "prepare": "ncc build index.js -o dist --source-map --license licenses.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xendit/xendit-api-key-scanner-action.git"
+  },
+  "author": "Muhammad Zunan Alfikri (zunan@xendit.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xendit/xendit-api-key-scanner-action/issues"
+  },
+  "homepage": "https://github.com/xendit/xendit-api-key-scanner-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.0",
+    "@actions/github": "^5.1.1",
+    "@octokit/rest": "^19.0.7"
+  },
+  "devDependencies": {
+    "eslint": "^8.34.0",
+    "jest": "^29.4.3"
+  }
+}
