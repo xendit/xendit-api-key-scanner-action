@@ -1,0 +1,15 @@
+openapi: 3.0.1
+info:
+  title: xendit-api-key-scanner-action
+  x-cortex-git:
+    github:
+      repository: xendit/xendit-api-key-scanner-action
+  x-cortex-tag: xendit-api-key-scanner-action
+  x-cortex-type: service
+  x-cortex-owners:
+  - email: burman@xendit.co
+    type: EMAIL
+  x-cortex-service-groups:
+  - burman@xendit.co
+  - P4
+  - Security
